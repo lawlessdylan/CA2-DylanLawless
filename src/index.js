@@ -1,7 +1,16 @@
+/**
+ * @Author: dylanlawless
+ * @Date:   2020-01-22T17:31:59+00:00
+ * @Last modified by:   dylanlawless
+ * @Last modified time: 2020-01-22T17:43:49+00:00
+ */
+
+
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));

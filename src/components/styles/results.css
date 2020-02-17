@@ -1,0 +1,79 @@
+/**
+ * @Author: dylanlawless
+ * @Date:   2020-01-17T16:07:41+00:00
+ * @Last modified by:   dylanlawless
+ * @Last modified time: 2020-01-18T20:05:25+00:00
+ */
+
+
+.results-dashboard{
+    height: 550px;
+    border-radius: 30px;
+    /* padding-bottom: 50px; */
+    padding: 0px;
+
+    position: relative;
+      -webkit-animation-name: intro-dash; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+      animation-name: intro-dash;
+      animation-duration: 0.4s;
+
+
+}
+
+.side-nav{
+ border-right: 1px solid #d6d6d6;
+ height: 100%;
+ margin: 0px;
+ padding: 20px 30px;
+
+}
+
+.results-logo{
+    padding-top: 7px;
+    float: left;
+    margin-left: 30px;
+
+}
+.dashboard-logo{
+    width: 28px;
+    height: 36px;
+}
+.dashboard-title{
+    float: left;
+    padding-top: 13px;
+    padding-left: 15px;
+    color: #D74C4C;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.dashboard{
+    padding: 0px;
+}
+
+.results-table{
+    font-size: 16px;
+    color: #525252;
+    width: 100%;
+}
+.results-div{
+    padding-left: 0px;
+}
+th{
+padding:20px 20px !important;
+
+}
+td{
+    padding:20px 20px !important;
+}
+table{
+}
+
+
+
+@keyframes intro-dash {
+  0%   {opacity:0; left:0px; top:200px;}
+  100%  {opacity: 1; left:0px; top:0px;}
+
+}

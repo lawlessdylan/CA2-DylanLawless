@@ -1,0 +1,9 @@
+[
+    { "team_id": "1", "nation": "Ireland"},
+    { "team_id": "2", "nation": "England"},
+    { "team_id": "3", "nation": "Wales"},
+    { "team_id": "4", "nation": "Scotland"},
+    { "team_id": "5", "nation": "Italy"},
+    { "team_id": "6", "nation": "France"},
+
+]

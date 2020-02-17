@@ -1,0 +1,116 @@
+/**
+ * @Author: dylanlawless
+ * @Date:   2020-01-16T19:18:54+00:00
+ * @Last modified by:   dylanlawless
+ * @Last modified time: 2020-02-16T20:44:23+00:00
+ */
+
+
+ .small-title {
+
+     padding-top: 30px;
+     text-align: center;
+     margin-bottom: 30px;
+     border-bottom: 0px;
+
+     position: relative;
+       -webkit-animation-name: intro-fixtures; /* Safari 4.0 - 8.0 */
+       -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+       animation-name: intro-fixtures;
+       animation-duration: 0.4s;
+ }
+
+ .fixture-card{
+         border-radius: 30px;
+         overflow: hidden;
+ }
+
+
+
+.fixture-date{
+  border-right: 1px solid #d6d6d6;
+}
+
+.fixture-time{
+  margin-left: 8px;
+}
+
+.card-body{
+  padding-left: 10px;
+}
+
+.fixture-div{
+  margin: 0 auto;
+}
+
+.fixture-score{
+
+}
+
+.fixture-numbers{
+  text-align: center;
+  margin: auto;
+  width: 80px;
+}
+
+.fixture-team-two{
+    float: right;
+    text-align: left;
+}
+
+.team-two{
+  float: right;
+}
+.fixture-row{
+    margin: 0 auto;
+}
+
+
+.team-one-left{
+  padding-left: 80px;
+}
+
+.action-button {
+    background-color: white;
+    color: #707070;
+    padding: 10px 22px;
+    border-radius: 30px;
+    border-color: #dbdbdb;
+    margin-left: 10px;
+    float: right;
+
+}
+
+.action-button:hover {
+    text-decoration: none;
+    border-color: #8f8f8f;
+    background-color: white;
+    color: #525252;
+}
+
+
+
+
+
+@keyframes intro-fixtures {
+  0%   {opacity:0; left:0px; top:100px;}
+  100%  {opacity: 1; left:0px; top:0px;}
+
+}
+
+.fixture-div{
+  float: left;
+  margin-bottom: 30px;
+
+    position: relative;
+      -webkit-animation-name: intro-cards; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+      animation-name: intro-cards;
+      animation-duration: 0.4s;
+
+}
+@keyframes intro-cards {
+  0%   {opacity:0; left:0px; top:200px;}
+  100%  {opacity: 1; left:0px; top:0px;}
+
+}

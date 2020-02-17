@@ -1,0 +1,146 @@
+/**
+ * @Author: dylanlawless
+ * @Date:   2020-01-22T17:31:59+00:00
+ * @Last modified by:   dylanlawless
+ * @Last modified time: 2020-02-16T20:53:14+00:00
+ */
+ body {
+     color: #707070;
+     font-family: 'Helvetica Neue', 'Open sans';
+     margin-bottom: 15px;
+ }
+
+
+ .nav-button {
+     background-color: white;
+     color: #707070;
+     padding: 16px 30px;
+     border-radius: 30px;
+ border-color: #dbdbdb;
+ }
+
+ .nav-button:hover {
+     text-decoration: none;
+     border-color: #8f8f8f;
+     background-color: white;
+     color: #525252;
+ }
+
+ .my-nav {
+     padding-top: 35px;
+     padding-bottom: 35px;
+     height: 100px;
+     background-color: #FFF;
+     margin: 0 auto;
+     width: 100%;
+     padding-left: 220px;
+     padding-right: 220px;
+       flex-flow: row nowrap;
+        display: inline-flex;
+ }
+
+ .navbar-link {
+     color: #a6a6a6;
+     margin-right: 40px;
+     font-size: 18px;
+     padding-bottom: 2px;
+     border-bottom: 2px solid transparent;
+     position: relative;
+     /* HOVER OFF */
+   -webkit-transition:color .3s, border-bottom .3s;
+ }
+
+ .my-logo {
+     margin-top: 10px;
+     width: 75px;
+     height: 120px;
+
+ }
+
+ .navbar-links a.chosen,
+ a.navbar-link:hover {
+     text-decoration: none;
+     color: #525252;
+     border-bottom: 2px solid #525252;
+     transition:color .5s, border-bottom .5s ease-in-out
+ }
+ a.navbar-link:hover:after {
+     text-decoration: none;
+
+     border-bottom: 2px solid transparent;
+     transition: border-bottom .5s ease-in-out
+ }
+
+
+ .home-title{
+     margin-bottom: 20px;
+
+ }
+
+
+ .small-title {
+     font-size: 60px;
+     font-weight:bold;
+     color: #D74C4C;
+     text-align: center;
+     padding-bottom: 30px;
+ }
+
+ .center-div {
+     margin: 0 auto;
+ }
+
+ .button-submit {
+     float: right;
+     margin-top: 20px;
+     padding: 15px 35px;
+     border-color: #dbdbdb;
+     color: #707070;
+
+
+ }
+
+
+ .button-google{
+     margin-top: 25px;
+     color: #707070;
+
+     width: 100%;
+     border-color: #dbdbdb;
+
+
+ }
+ .google-signin{
+     width: 18px;
+     margin-right:10px;
+     margin-bottom: 3px;
+     height: 18px;
+
+ }
+ .nav-button:focus{
+ background-color: white;
+ color: #707070;
+ }
+
+ .form-buttons{
+     background-color: white;
+     color: #707070;
+     padding: 16px 30px;
+     border-radius: 30px;
+     border-color: #dbdbdb;
+ }
+ .button-left{
+     margin-top: 20px;
+     float: left;
+     border-color: #dbdbdb;
+
+ }
+
+ .card-button{
+     float: right;
+ }
+ .card-footer{
+     padding-top: 20px;
+     padding-bottom: 20px;
+     background-color: white;
+ }

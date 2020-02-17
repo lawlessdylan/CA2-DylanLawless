@@ -1,0 +1,150 @@
+/**
+ * @Author: dylanlawless
+ * @Date:   2020-01-16T19:18:54+00:00
+ * @Last modified by:   dylanlawless
+ * @Last modified time: 2020-02-16T14:23:59+00:00
+ */
+
+
+
+
+.home-title{
+    position: relative;
+      -webkit-animation-name: intro; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+      animation-name: intro;
+      animation-duration: 0.4s;
+
+    color: #5689d1;
+    font-size: 120px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+@keyframes intro {
+  0%   {opacity:0; left:0px; top:400px;}
+  100%  {opacity: 1; left:0px; top:0px;}
+
+}
+
+
+.centre-text {
+    margin: 0 auto;
+    font-size: 26px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 400;
+
+    position: relative;
+    -webkit-animation-name: intro-text; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: intro-text;
+    animation-duration: 0.4s;
+}
+
+
+
+@keyframes intro-text {
+  0%   {opacity:0; left:0px; top:600px;}
+  100%  {opacity: 1; left:0px; top:0px;}
+
+}
+.small-title {
+
+    color: #5689d1;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+
+    position: relative;
+      -webkit-animation-name: intro-tests; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+      animation-name: intro-tests;
+      animation-duration: 0.4s;
+}
+
+.team-card{
+
+            border-radius:30px;
+            overflow: hidden;
+}
+.team-div{
+        float: left;
+        margin-bottom: 30px;
+        position: relative;
+        -webkit-animation-name: team-div; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+        animation-name: team-div;
+        animation-duration: 0.4s;
+}
+.view-team-div{
+
+        position: relative;
+        -webkit-animation-name: team-div; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+        animation-name: team-div;
+        animation-duration: 0.4s;
+}
+
+@keyframes team-div {
+  0%   {opacity:0; left:0px; top:600px;}
+  100%  {opacity: 1; left:0px; top:0px;}
+
+}
+
+.card-player{
+  padding-top: 10px;
+}
+
+
+.team-title{
+    padding-top: 20px;
+
+    color: #5689d1;
+    font-weight: 600;
+}
+
+.player-headings{
+    color: #707070;
+border-color: blue;
+
+}
+.player-row{
+    color: #707070;
+    width: 100%;
+
+}
+.player-table-body{
+border: 0px;
+
+}
+.player-link{
+text-decoration: none;
+color: #707070;
+
+}
+
+.actions-headings{
+    text-align: center;
+}
+
+.back-button {
+    background-color: white;
+    color: #707070;
+    padding: 10px 22px;
+    border-radius: 30px;
+    border-color: #dbdbdb;
+    float: left;
+
+}
+
+.back-button:hover {
+    text-decoration: none;
+    border-color: #8f8f8f;
+    background-color: white;
+    color: #525252;
+}
